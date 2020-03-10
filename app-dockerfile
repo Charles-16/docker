@@ -1,6 +1,6 @@
 # use base image.
 FROM sloopstash/amazonlinux:v1
-#Adding text to test the git revert cmd 
+
 # install nginx.
 RUN set -x \
   && wget https://nginx.org/packages/rhel/7/x86_64/RPMS/nginx-1.14.0-1.el7_4.ngx.x86_64.rpm --quiet \
